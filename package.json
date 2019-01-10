@@ -1,0 +1,14 @@
+{
+  "name": "coding-joyfully",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/booklisp/ ./source/coding-joyfully-source.md ./coding-joyfully.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "booklisp": "^1.5.1"
+  }
+}
