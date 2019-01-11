@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "booklisp": "^1.5.1"
+    "booklisp": "^1.6.1"
   }
 }

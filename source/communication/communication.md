@@ -4,9 +4,9 @@
 /bl-->
 
 <!--bl
-(section "./source/communication/software-is-for-people.md")
-(section "./source/communication/testing.md")
-(section "./source/communication/domain-language.md")
-(section "./source/communication/refactoring.md")
-(section "./source/communication/patterns.md")
+(section "./source/communication/content/software-is-for-people.md")
+(section "./source/communication/content/testing.md")
+(section "./source/communication/content/domain-language.md")
+(section "./source/communication/content/refactoring.md")
+(section "./source/communication/content/patterns.md")
 /bl-->
