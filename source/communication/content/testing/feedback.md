@@ -7,7 +7,7 @@ During any automated test run, there is an expectation that the tests will expos
 
 Change identification feedback is, essentially, what happens when a test fails.  When a test fails, output is logged and, typically, the name or description of the test is linked to the identified failure.  Change proximity feedback is the output from the test which provides the information we need to start using our deductive skills.
 
-####Change Identification Feedback####
+##### Change Identification Feedback #####
 
 In order to get the best change identification feedback possible, it is important to think of our tests as living software documentation. The way our tests stay alive is that we run them often and use the output to ensure our software continues to work as expected.  This means test names, descriptions and error messaging be as clear and domain-related as possible.
 
