@@ -9,4 +9,5 @@ Change identification feedback is, essentially, what happens when a test fails. 
 
 <!--bl
 (subsection-minor "./source/communication/content/testing/change-identification-feedback.md")
+(subsection-minor "./source/communication/content/testing/change-proximity-feedback.md")
 /bl-->

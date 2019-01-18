@@ -55,6 +55,11 @@ There seems to be a never-ending debate about the value of automated tests, whet
 An automated test suite provides two distinct kinds of value for the programmer: feedback when something breaks or changes, and information on how to consume the API under test.
 
 
+#### Tests as Documentation ####
+
+
+    
+
 #### Getting Feedback from Tests ####
 
 During any automated test run, there is an expectation that the tests will expose unexpected behavior in the code.  This kind of information can be viewed as test feedback.  Test feedback comes in a couple of different flavors which we can call _change identification_ and _change proximity_.
@@ -112,10 +117,10 @@ describe('conversionHelper', function () {
 });
 ```
     
+
+##### Change Proximity Feedback #####
+
     
-
-#### Tests as Documentation ####
-
     
     
 

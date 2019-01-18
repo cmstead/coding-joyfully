@@ -8,6 +8,6 @@ There seems to be a never-ending debate about the value of automated tests, whet
 An automated test suite provides two distinct kinds of value for the programmer: feedback when something breaks or changes, and information on how to consume the API under test.
 
 <!--bl
-(subsection "./source/communication/content/testing/feedback.md")
 (subsection "./source/communication/content/testing/documentation.md")
+(subsection "./source/communication/content/testing/feedback.md")
 /bl-->
