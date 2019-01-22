@@ -62,9 +62,9 @@ An automated test suite provides two distinct kinds of value for the programmer:
 
 #### Getting Feedback from Tests ####
 
-During any automated test run, there is an expectation that the tests will expose unexpected behavior in the code.  This kind of information can be viewed as test feedback.  Test feedback comes in a couple of different flavors which we can call _change identification_ and _change proximity_.
+During any automated test run, there is an expectation that the tests will expose unexpected behavior in the code.  This kind of information can be viewed as test feedback.  Test feedback comes in a couple of different flavors which we can call _change identification_ and _change locality_.
 
-Change identification feedback is, essentially, what happens when a test fails.  When a test fails, output is logged and, typically, the name or description of the test is linked to the identified failure.  Change proximity feedback is the output from the test which provides the information we need to start using our deductive skills.
+Change identification feedback is, essentially, what happens when a test fails.  When a test fails, output is logged and, typically, the name or description of the test is linked to the identified failure.  Change locality feedback is the output from the test which provides the information we need to start using our deductive skills.
 
 
 ##### Change Identification Feedback #####
@@ -118,8 +118,17 @@ describe('conversionHelper', function () {
 ```
     
 
-##### Change Proximity Feedback #####
+##### Change Locality Feedback #####
 
+As code changes, we run our tests in order to receive information about any changes which are unexpected.  This real-time feedback is what makes tests living documentation. The aspect of change communication is especially useful when we get information about where the change occurred.
+
+We will refer to the identification and communication about where a change exists as _change locality._ When a test provides accurate insight into the change locality, it becomes easier to identify and debug in the production code.  This kind of speed to debugging is critical to improving speed and accuracy of software development.
+
+Of course no test can provide perfect, accurate change locality feedback. This means there will always be a tradeoff between accurate change locality feedback and integration level of the test in question.  I propose there is an inverse relation between integration and change locality feedback which can be stated as the following:
+
+_The greater the number of code integration points exercised under a single test, the less a developer can know about the locality of a single change._
+
+It is reasonable to want tests which verify code integration. Integration and end-to-end tests verify an application runs as expected using live integration points, data, system IO, and so on.  What this law tells us, however, integration tests are not sufficient for building satisfactory living documentation.
     
     
     
