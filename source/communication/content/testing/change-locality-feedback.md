@@ -12,6 +12,7 @@ Of course no test can provide perfect, accurate change locality feedback. This m
 _The greater the number of code integration points exercised under a single test, the less a developer can know about the locality of a single change._
 
 It is reasonable to want tests which verify code integration. Integration and end-to-end tests verify an application runs as expected using live integration points, data, system IO, and so on.  What this law tells us, however, integration tests are not sufficient for building satisfactory living documentation.
-<!--bl
-(build-message "*** Communication > Testing > Change Locality Feedback is currently underway. ***")
-/bl-->
+
+In fact, no single level of test abstraction will serve all needs for all test communication. It is neccessary to choose and support a number of different types of tests at varying granularities.  For the purpose of testing and feedback, a type system can be viewed as a form of ultra-granular test.
+
+When we look at tests we will dive into the various levels of granularity and what valuable feedback each provides.  We will also explore different kinds of testing and how those types of tests can create a rich tapestry of documentation and just-in-time feedback.
