@@ -56,6 +56,14 @@ Finally, we will look at refactoring and how it can be used to capture context i
 
 #### Communication ####
 
+Once we have a means to construct context within our code, we want to communicate in a rich way.  The communication which we build into our code should not only provide context around the localized development work being done, it should lead you from where you are through the code to where you want to be.
+
+In information architecture, there is a concept called wayfinding.  Peter Morville talks about this in depth in the book "Ambient Findability."  Our code should work to emulate the kind of wayfinding and findability designers aim to produce in their work. This will help lead future developers to the information and context they are seeking.
+
+Tests are some of the most critical communication devices we have for providing information about intent and API consumption. Through writing and refactoring tests, we will create a meta-communication layer which will inform developers about the underlying code and develop useful patterns which can help guide the development hand.
+
+Communication is also nothing without a discussion.  As we explore communicating through code, we will start looking at how the code communicates back as well. We will explore automated tools which can help guide the creation of deeply communicative code. Through linting and the compilation step of a statically typed language, we will see how the code can communicate deep knowledge contained within.
+
 #### Heuristics ####
 
 #### Code Sensing ####
